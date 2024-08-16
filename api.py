@@ -37,4 +37,18 @@ async def read_user(user_id: str):
 
 @app.get("/algos/{algo_id}")
 async def get_ml_algo(algo_id: str):
-    return MlAlgorithm[algo_id].value
+    return MlAlgorithm[algo_id]
+
+
+
+@app.get("/files/{file_path:path}")
+async def read_file(file_path: str):
+    return {"file_path": file_path}
+
+
+fake_items_db = [{"item_name": "Foo"}, {"item_name": "Bar"}, {"item_name": "Baz"}, {"item_name": "CJs Cafe"}]
+
+@app.get("/items/")
+async def read_fake_items(skip: int = 0, limit: int = 10, item_name: str = None):
+    query = list(filter(lambda d: (d["item_name"] == item_name), fake_items_db[skip: skip + limit]))
+    return query
