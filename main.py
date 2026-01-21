@@ -97,3 +97,4 @@ async def delete_campaign(id: int, session: SessionDep):
     return
 
 # adding some feature from git repo
+# remote feature 1
