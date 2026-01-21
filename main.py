@@ -95,3 +95,5 @@ async def delete_campaign(id: int, session: SessionDep):
     session.delete(data)
     session.commit()
     return
+
+# adding some feature from git repo
