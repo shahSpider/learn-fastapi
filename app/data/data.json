@@ -1,0 +1,94 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "The 48 Laws of Power",
+            "author": "Robert Greene",
+            "publisher": "Penguin Books",
+            "publish_date": "1998",
+            "page_count": 452,
+            "language": "English"
+        },
+        {
+            "id": 2,
+            "title": "The Art of War",
+            "author": "Sun Tzu",
+            "publisher": "Oxford University Press",
+            "publish_date": "2008",
+            "page_count": 384,
+            "language": "English"
+        },
+        {
+            "id": 3,
+            "title": "The Prince",
+            "author": "Niccolò Machiavelli",
+            "publisher": "Penguin Classics",
+            "publish_date": "2003",
+            "page_count": 176,
+            "language": "English"
+        },
+        {
+            "id": 4,
+            "title": "Meditations",
+            "author": "Marcus Aurelius",
+            "publisher": "Modern Library",
+            "publish_date": "2002",
+            "page_count": 304,
+            "language": "English"
+        },
+        {
+            "id": 5,
+            "title": "Discipline Equals Freedom",
+            "author": "Jocko Willink",
+            "publisher": "St. Martin's Press",
+            "publish_date": "2017",
+            "page_count": 224,
+            "language": "English"
+        },
+        {
+            "id": 6,
+            "title": "Extreme Ownership",
+            "author": "Jocko Willink & Leif Babin",
+            "publisher": "St. Martin's Press",
+            "publish_date": "2015",
+            "page_count": 320,
+            "language": "English"
+        },
+        {
+            "id": 7,
+            "title": "The Book of Five Rings",
+            "author": "Miyamoto Musashi",
+            "publisher": "Shambhala",
+            "publish_date": "2003",
+            "page_count": 160,
+            "language": "English"
+        },
+        {
+            "id": 8,
+            "title": "On War",
+            "author": "Carl von Clausewitz",
+            "publisher": "Princeton University Press",
+            "publish_date": "1989",
+            "page_count": 752,
+            "language": "English"
+        },
+        {
+            "id": 9,
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "publisher": "Avery",
+            "publish_date": "2018",
+            "page_count": 320,
+            "language": "English"
+        },
+        {
+            "id": 10,
+            "title": "The 33 Strategies of War",
+            "author": "Robert Greene",
+            "publisher": "Penguin Books",
+            "publish_date": "2006",
+            "page_count": 496,
+            "language": "English"
+        }
+    ]
+}
